@@ -13,7 +13,7 @@ require("./passport");
 dotenv.config({ path: "./config.env" });
 app.use(
   cors({
-    origin: "*",
+    origin: "https://frontend-chip-english-2lr1zfbsm-lamnt205210s-projects.vercel.app",
     credentials: true
   })
 );
