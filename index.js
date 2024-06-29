@@ -13,8 +13,7 @@ require("./passport");
 dotenv.config({ path: "./config.env" });
 app.use(
   cors({
-    origin: process.env.URL_CLIENT,
-    credentials: true,
+    origin: "*",
   })
 );
 
