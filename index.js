@@ -14,6 +14,7 @@ dotenv.config({ path: "./config.env" });
 app.use(
   cors({
     origin: "*",
+    credentials: true
   })
 );
 
